@@ -1,0 +1,89 @@
+.btn {
+    background-color: coral;
+}
+
+.btn:hover {
+    background-color: rgb(255, 255, 255);
+    border: 1px solid coral;
+    color: coral;
+}
+
+.header_box {
+    margin: 0 auto;
+    max-width: 540px;
+    text-align: center;
+}
+
+.title {
+    color: aliceblue;
+}
+
+.header {
+    height: 417px;
+    position: relative;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row2 {
+    max-width: 636px;
+    display: flex;
+    align-items: center;
+    height: 80px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 170px;
+}
+
+.btn-checks {
+    border: none;
+    color: aliceblue;
+    height: 80px;
+    width: 120px;
+    background-color: rgb(18, 18, 148);
+}
+
+.section_box {
+    margin-top: 200px;
+}
+
+.article_box {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.card1 {
+    display: flex;
+}
+
+@media (max-width:768px) {
+    .title {
+        font-weight: 600;
+        font-size: 28px;
+        line-height: 38px;
+        color: #FFFFFF;
+    }
+    .row2 {
+        flex-direction: column;
+        row-gap: 30px;
+    }
+}
+
+@media (max-width:576px) {
+    .row2 {
+        flex-direction: column;
+        row-gap: 30px;
+        max-width: 190px;
+    }
+    .box2 {
+        display: none;
+    }
+    .section_box {
+        margin-top: 320px;
+    }
+}
